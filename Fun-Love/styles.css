@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=DM+Sans&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #f72585;
+}
+
+.container{
+    text-align: center;
+    height: 90vh;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+h1{
+    color: #3a0ca3;
+    margin-top: 150px;
+    font-size: 100px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    line-height: 100px;
+}
+
+.collection{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 90px;
+}
+
+.kitty{
+    width: 0;
+}
+
+#dance{
+        width: 0;
+        box-shadow: 10px 9px 28px rgb(90, 19, 62);
+}
+
+button{cursor: pointer;
+    background-color: turquoise;
+    width: 130px;
+    padding: 15px 24px;
+    margin: 10px 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.no{
+    right: 50%;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* ************************************************** */
+
+
